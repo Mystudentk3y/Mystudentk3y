@@ -1,0 +1,103 @@
+body {
+  background-color: #0d1117;
+}
+
+h1 {
+  color: #F5F5F4;
+  text-align: center;
+  text-decoration-style: solid;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 30px;
+}
+
+p {
+	color: #c1d1d9;
+	text-decoration-style: solid;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 18px;
+}
+h2 {
+  color: #c1d1d9;
+	text-decoration-style: solid;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 20px;
+}
+h3 {
+  color: #c1d1d9;
+	text-decoration-style: solid;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 20px;
+}
+h4  {
+	color: #c1d1d9;
+	text-decoration-style: solid;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #161b22;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+}
+
+li a img {
+  display: block;
+  padding: 10px;
+  color: #F5F5F4;
+  text-align: right;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  color: #F5F5F4;
+}
+
+a{
+  color: #4F93E1;
+}
+
+#header {
+  color: black;
+  text-align: center; /* Centered text */
+  font-size: 30px; /* Big font size */
+  font-weight: bold;
+  position: fixed; /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%; /* Full width */
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  position: absolute;
+  right: 0px;
+}
+
+#search {
+  padding: 6px;
+}
+
+input[type=text] {
+  width: 100px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 15px 10px 20px;
+  transition: width 0.4s ease-in-out;
+  border-radius: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}

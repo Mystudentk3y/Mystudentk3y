@@ -1,0 +1,13 @@
+body {
+  background-color: White;
+}
+h1 {
+  color: 	#B8860B;
+}
+p {
+  color: 	#006400;
+}
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
