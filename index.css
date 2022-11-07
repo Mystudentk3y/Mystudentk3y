@@ -14,6 +14,8 @@ p {
 	text-decoration-style: solid;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-size: 18px;
+	position: absolute;
+	bottom: 0;
 }
   *{
     outline: none;
