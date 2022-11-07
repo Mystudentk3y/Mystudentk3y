@@ -8,6 +8,13 @@ body{
     animation: blur 0.5s ease-out;
   
   }
+
+p {
+	color: #c1d1d9;
+	text-decoration-style: solid;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-size: 18px;
+}
   *{
     outline: none;
     border: none;
