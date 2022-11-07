@@ -295,7 +295,7 @@ body{
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #D64045;
+    background: #fff;
     border-radius: 5px;
   }
   
